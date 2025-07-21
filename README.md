@@ -1,4 +1,4 @@
-### 🏏 ESPN Cricket Data Analysis
+### 🏏 ESPN Cricket Data Analysis (Web Scraping)
 **Overview:**  
 Analyzed player performance and match outcomes from the ICC T20 World Cup 2022 to identify top performers and assemble an optimal playing XI.
 
@@ -14,7 +14,7 @@ Analyzed player performance and match outcomes from the ICC T20 World Cup 2022 t
 
 ---
 
-### 📱 Mobile Sales Data Analysis
+### 📱 Mobile Sales Data Analysis (CSV file)
 **Overview:**  
 Built an interactive dashboard to track mobile sales performance across regions, product categories, and time periods.
 
@@ -30,7 +30,7 @@ Built an interactive dashboard to track mobile sales performance across regions,
 
 ---
 
-### 😟 Panic Attack Data Analysis
+### 😟 Panic Attack Data Analysis (Snowflake tables)
 **Overview:**  
 Explored patterns in panic attack symptoms, age-based trends, and behavioral correlations to support mental health insights.
 
@@ -43,19 +43,3 @@ Explored patterns in panic attack symptoms, age-based trends, and behavioral cor
 - Health records stored in Snowflake (structured tables)  
 - Transformed using SQL and Power BI Power Query  
 - DAX used for age categorization and symptom-based measures  
-
----
-
-### 🏥 Healthcare Claims Dashboard
-**Overview:**  
-Developed a claims performance dashboard to monitor funded amounts, loan statuses, and beneficiary demographics.
-
-**Key Metrics:**  
-- Total claims, average claim amount, chronic condition prevalence  
-- Gender-based analysis and provider performance  
-- Monthly trends and regional breakdowns  
-
-**Data Sources:**  
-- Claims and beneficiary data from a simulated healthcare dataset (CSV)  
-- SQL queries used for extraction and joins  
-- Modeled in Power BI with DAX for KPIs and filters  
