@@ -1,0 +1,29 @@
+### 📱 **Project: Mobile Sales Data Analysis Using Power BI**
+
+**S**ituation:  
+A fictional mobile retail company operating across India needed insights into sales performance, customer preferences, and transaction trends. The dataset included thousands of records covering mobile models, pricing, ratings, payment methods, and city-wise transactions.
+
+**T**ask:  
+Build an interactive Power BI dashboard to analyze mobile sales data and uncover patterns in brand performance, customer satisfaction, and seasonal demand. The goal was to transform raw Excel data into a compelling business intelligence report.
+
+**A**ction:  
+- **Data Preparation**  
+  - Imported raw data from Excel (`Mobile Sales Data.xlsx`)  
+  - Cleaned and transformed fields: standardized brand/model names, removed nulls and duplicates  
+  - Created calculated columns for average price, rating distribution, and transaction counts  
+
+- **Data Modeling**  
+  - Established relationships between product, transaction, and customer tables  
+  - Used DAX to compute KPIs: total sales, units sold, average price, and customer satisfaction score  
+  - Applied time intelligence functions to analyze monthly and seasonal trends  
+
+- **Dashboard Design**  
+  - Built visuals: bar charts for brand performance, pie charts for payment methods, maps for city-wise sales  
+  - Added slicers for filtering by city, brand, month, and payment type  
+  - Used tooltips and Smart Narrative for contextual storytelling  
+  - Enabled drill-through pages for model-level insights  
+<img width="755" height="439" alt="Image" src="https://github.com/user-attachments/assets/8997a9f7-3bf9-498e-9ecc-877c0f49f0c0" />
+<img width="758" height="436" alt="Image" src="https://github.com/user-attachments/assets/65829beb-3ed3-4317-a79b-464af39b5a93" />
+
+**R**esult:  
+Delivered a polished Power BI dashboard that revealed top-performing cities (Delhi, Mumbai, Ranchi), peak sales months (March, June), and customer preferences (Apple, Samsung, OnePlus). The report highlighted high-rated models like iPhone SE and OnePlus Nord, and showed UPI and card payments as dominant transaction methods. This project demonstrated your ability to turn raw data into actionable insights using DAX, Power Query, and visual storytelling.
