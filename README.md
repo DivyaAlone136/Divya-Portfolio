@@ -1,45 +1,67 @@
-### 🏏 ESPN Cricket Data Analysis (Web Scraping)
+### 🏏 ESPN Cricket Data Analysis  (Data source: Web Scraping)
 **Overview:**  
-Analyzed player performance and match outcomes from the ICC T20 World Cup 2022 to identify top performers and assemble an optimal playing XI.
+Analyzed ICC T20 World Cup 2022 performance metrics to identify top players and build an optimal playing XI.
 
 **Key Metrics:**  
-- Batting strike rate, bowling economy, win-loss ratios  
-- Player consistency across matches  
-- Team-wise performance breakdown  
+- Strike rate, bowling economy, player consistency  
+- Match outcomes and team performance patterns  
 
 **Data Sources:**  
-- Match results, player stats, and scorecards scraped from [ESPN Cricinfo](https://www.espncricinfo.com) using Python and BeautifulSoup  
-- CSV files generated for batting, bowling, and match summaries  
-- Data transformed in Power Query and modeled using DAX in Power BI  
+- Player stats and match details scraped from [ESPN Cricinfo](https://www.espncricinfo.com) using Python  
+- Transformed via Power Query and visualized using DAX in Power BI  
 
 ---
 
-### 📱 Mobile Sales Data Analysis (CSV file)
+### 📱 Mobile Sales Data Analysis   (CSV file)
 **Overview:**  
-Built an interactive dashboard to track mobile sales performance across regions, product categories, and time periods.
+Built an interactive dashboard to analyze mobile brand performance, regional trends, and sales channels.
 
 **Key Metrics:**  
-- Total sales, revenue growth, product-wise performance  
-- Regional trends and channel-wise distribution  
-- Dynamic filters for time-based analysis  
+- Units sold, revenue growth, payment method preferences  
+- City-wise analysis and time-based trends  
 
 **Data Sources:**  
-- Raw sales data from a simulated retail dataset (CSV format)  
-- Cleaned and transformed using Power Query  
-- Visualized in Power BI with calculated measures for KPIs  
+- Simulated retail transaction data (CSV)  
+- Modeled and visualized using Power BI and DAX  
 
 ---
 
-### 😟 Panic Attack Data Analysis (Snowflake tables)
+### 😟 Panic Attack Data Analysis (Data source: Snowflake)
 **Overview:**  
-Explored patterns in panic attack symptoms, age-based trends, and behavioral correlations to support mental health insights.
+Explored mental health data to uncover symptom patterns, lifestyle triggers, and demographic correlations.
 
 **Key Metrics:**  
-- Symptom prevalence by age group  
-- Lifestyle factors (sleep, alcohol, caffeine) vs. panic scores  
-- Gender and medical history segmentation  
+- Symptom prevalence across age and gender  
+- Impact of lifestyle factors on panic intensity  
 
 **Data Sources:**  
-- Health records stored in Snowflake (structured tables)  
-- Transformed using SQL and Power BI Power Query  
-- DAX used for age categorization and symptom-based measures  
+- Anonymized health records from Snowflake  
+- SQL and Power BI used for transformation and DAX-based analytics  
+
+---
+
+### 🏘️ Housing Market Data Analysis  (Data source : Google Cloud Platform)
+**Overview:**  
+Analyzed property listings to identify pricing trends, renovation impacts, and zip-code-level valuation differences.
+
+**Key Metrics:**  
+- Price per sqft, condition-based price variance  
+- Renovation status, property age, and city-wise comparison  
+
+**Data Sources:**  
+- Housing dataset from [Kaggle](https://www.kaggle.com/datasets)  
+- Cleaned and transformed in Power BI; calculated columns and DAX measures used extensively  
+
+---
+
+### 🏥 Healthcare Data Analysis Using SQL Server (20M+ Records)  (Data Source: SQL Server)
+**Overview:**  
+Performed large-scale analysis of patient records and hospital performance across 20M+ entries in SQL Server.
+
+**Key Metrics:**  
+- Infection rate, length of stay, readmission trends  
+- Hospital comparison and anomaly detection  
+
+**Data Sources:**  
+- Patient demographics, hospital logs, and treatment metrics stored in SQL Server  
+- Leveraged stored procedures, views, and DirectQuery for real-time analysis in Power BI  
