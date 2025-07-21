@@ -12,7 +12,7 @@ Analyzed ICC T20 World Cup 2022 performance metrics to identify top players and 
 
 ---
 
-### 📱 Mobile Sales Data Analysis   (CSV file)
+### 📱 Mobile Sales Data Analysis   (Data source: CSV file)
 **Overview:**  
 Built an interactive dashboard to analyze mobile brand performance, regional trends, and sales channels.
 
